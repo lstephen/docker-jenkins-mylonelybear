@@ -13,6 +13,8 @@ RUN install-plugin.sh workflow-step-api
 
 RUN install-plugin.sh promoted-builds
 
+RUN install-plugin.sh postbuildscript
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh greenballs
