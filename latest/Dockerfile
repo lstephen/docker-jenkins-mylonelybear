@@ -7,5 +7,11 @@ RUN install-plugin.sh github-oauth
 RUN install-plugin.sh github
 RUN install-plugin.sh github-api
 
+RUN install-plugin.sh credentials-binding
+RUN install-plugin.sh plain-credentials
+RUN install-plugin.sh workflow-step-api
+
+# Cosmetic
+RUN install-plugin.sh ansicolor
 RUN install-plugin.sh greenballs
 
