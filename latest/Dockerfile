@@ -16,4 +16,5 @@ RUN install-plugin.sh promoted-builds
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh greenballs
+RUN install-plugin.sh embeddable-build-status
 
