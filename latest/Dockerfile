@@ -11,6 +11,8 @@ RUN install-plugin.sh credentials-binding
 RUN install-plugin.sh plain-credentials
 RUN install-plugin.sh workflow-step-api
 
+RUN install-plugin.sh promoted-builds
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh greenballs
