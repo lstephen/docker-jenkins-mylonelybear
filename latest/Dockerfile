@@ -13,7 +13,7 @@ RUN install-plugin.sh workflow-step-api
 
 RUN install-plugin.sh promoted-builds
 
-RUN install-plugin.sh postbuildscript
+RUN install-plugin.sh parameterized-trigger
 
 # Cosmetic
 RUN install-plugin.sh ansicolor
