@@ -15,6 +15,8 @@ RUN install-plugin.sh promoted-builds
 
 RUN install-plugin.sh parameterized-trigger
 
+RUN install-plugin.sh ssh-credentials
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh greenballs
