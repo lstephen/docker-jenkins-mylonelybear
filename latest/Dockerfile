@@ -17,8 +17,13 @@ RUN install-plugin.sh parameterized-trigger
 
 RUN install-plugin.sh envinject
 
+RUN install-plugin.sh ghprb
+RUN install-plugin.sh ssh-agent
+
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
-RUN install-plugin.sh greenballs
+RUN install-plugin.sh description-setter
 RUN install-plugin.sh embeddable-build-status
+RUN install-plugin.sh greenballs
 
