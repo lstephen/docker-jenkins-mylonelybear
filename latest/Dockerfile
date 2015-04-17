@@ -20,6 +20,7 @@ RUN install-plugin.sh envinject
 RUN install-plugin.sh ghprb
 RUN install-plugin.sh ssh-agent
 
+RUN install-plugin.sh rebuild
 
 # Cosmetic
 RUN install-plugin.sh ansicolor
