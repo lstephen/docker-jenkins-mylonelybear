@@ -22,9 +22,12 @@ RUN install-plugin.sh ssh-agent
 
 RUN install-plugin.sh rebuild
 
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
+RUN install-plugin.sh categorized-view
 RUN install-plugin.sh description-setter
 RUN install-plugin.sh embeddable-build-status
 RUN install-plugin.sh greenballs
+RUN install-plugin.sh modernstatus
 
