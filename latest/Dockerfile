@@ -22,6 +22,8 @@ RUN install-plugin.sh ssh-agent
 
 RUN install-plugin.sh rebuild
 
+RUN install-plugin.sh s3
+RUN install-plugin.sh copyartifact
 
 # Cosmetic
 RUN install-plugin.sh ansicolor
