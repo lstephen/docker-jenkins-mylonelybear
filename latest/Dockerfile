@@ -25,6 +25,8 @@ RUN install-plugin.sh rebuild
 RUN install-plugin.sh s3
 RUN install-plugin.sh copyartifact
 
+RUN install-plugin.sh ws-cleanup
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh categorized-view
