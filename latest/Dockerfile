@@ -27,6 +27,12 @@ RUN install-plugin.sh copyartifact
 
 RUN install-plugin.sh ws-cleanup
 
+# Static Analysis
+RUN install-plugin.sh analysis-collector
+RUN install-plugin.sh analysis-core
+
+RUN install-plugin.sh findbugs
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh categorized-view
