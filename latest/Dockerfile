@@ -27,6 +27,9 @@ RUN install-plugin.sh copyartifact
 
 RUN install-plugin.sh ws-cleanup
 
+RUN install-plugin.sh token-macro
+RUN install-plugin.sh build-timeout
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh categorized-view
