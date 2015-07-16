@@ -30,6 +30,8 @@ RUN install-plugin.sh ws-cleanup
 RUN install-plugin.sh token-macro
 RUN install-plugin.sh build-timeout
 
+RUN install-plugin.sh disk-usage
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh categorized-view
