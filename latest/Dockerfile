@@ -34,6 +34,7 @@ RUN install-plugin.sh disk-usage
 
 # Cosmetic
 RUN install-plugin.sh ansicolor
+RUN install-plugin.sh compact-columns
 RUN install-plugin.sh categorized-view
 RUN install-plugin.sh description-setter
 RUN install-plugin.sh embeddable-build-status
