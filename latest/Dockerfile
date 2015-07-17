@@ -32,6 +32,8 @@ RUN install-plugin.sh build-timeout
 
 RUN install-plugin.sh disk-usage
 
+RUN install-plugin.sh PrioritySorter
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh compact-columns
