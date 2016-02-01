@@ -36,6 +36,8 @@ RUN install-plugin.sh PrioritySorter
 
 RUN install-plugin.sh schedule-build
 
+RUN install-plugin.sh urltrigger
+
 # Cosmetic
 RUN install-plugin.sh ansicolor
 RUN install-plugin.sh compact-columns
