@@ -1,4 +1,4 @@
-FROM lstephen/jenkins:19.1.655
+FROM lstephen/jenkins:19.2.0
 MAINTAINER Levi Stephen <levi.stephen@gmail.com>
 
 RUN install-plugin.sh git
